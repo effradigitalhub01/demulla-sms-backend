@@ -1,0 +1,16 @@
+{
+  "name": "demulla-sms-backend",
+  "version": "1.0.0",
+  "description": "Demulla SMS follow-up backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0",
+    "africastalking": "^0.6.4",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  }
+}
