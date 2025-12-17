@@ -1,4 +1,6 @@
-const express = require("express");
+// After Middleware
+const prospectRoutes = require("./src/routes/prospects");
+app.use("/api/prospects", prospectRoutes);const express = require("express");
 const mongoose = require("mongoose");
 const cron = require("node-cron");
 const AfricasTalking = require("africastalking");
